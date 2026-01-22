@@ -5,6 +5,9 @@ function factoeial() {
     for(let i=1; i<=num; i++){
         facto = facto * i;
     }
-console.log(facto);
-alert(`factorial of ${num} is : ${facto}`)
+// console.log(`factorial of ${num} is : ${facto}`);
+document.querySelector("body").innerText=`factorial of ${num} is : ${facto}`
 }
+
+
+
